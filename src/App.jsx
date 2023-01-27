@@ -13,8 +13,8 @@ function App() {
       <h1>Infinite SWAPI</h1>
       <InfinitePeople />
       {/* <InfiniteSpecies /> */}
+      <ReactQueryDevtools />
     </div>
-     <ReactQueryDevtools />
      </QueryClientProvider>
   );
 }
